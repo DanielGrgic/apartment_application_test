@@ -1,0 +1,56 @@
+.apartmentContainer {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.apartmentContainer h1 {
+    color: #333;
+    text-align: center;
+}
+
+.apartmentContainer img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.apartmentContainer p {
+    color: #555;
+    line-height: 1.6;
+}
+
+.amenities ul, .priceList, .availableDates {
+    list-style-type: none;
+    padding: 0;
+}
+
+.amenities li {
+    padding: 5px 0;
+}
+
+.priceList div, .availableDates div {
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.priceList div:last-child, .availableDates div:last-child {
+    border-bottom: none;
+}
+
+.amenities ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.amenities li {
+    padding: 5px 0;
+}
+
+.dateSelection input[type="date"] {
+    margin-right: 10px;
+}
